@@ -2,7 +2,7 @@
 layout: post
 title: avr isp programmer board
 description: electronics production
-img: /img/week3/pcb.jpg
+img: ../img/week3/pcb.jpg
 ---
 
 This week, we learned how to mill a trace and solder the appropriate components given the layout. We each applied these skills to create a AVR ISP Programmer board. Upon the class staff's recommendation, I followed [Brian's awesome documentation](http://fab.cba.mit.edu/classes/863.16/doc/projects/ftsmin/index.html) which contain the files for milling and the schematic and layout for soldering.

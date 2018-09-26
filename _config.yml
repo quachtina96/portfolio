@@ -3,8 +3,8 @@ title: *folio
 email: quacht@mit.edu
 description: > # this means to ignore newlines until "baseurl:"
   Tina learns how to make (almost) anything!
-baseurl:  # the subpath of your site, e.g. /blog/
-url:  # the base hostname & protocol for your site
+baseurl:  /classes/863.18/CBA/people/tina
+url:  http://fab.cba.mit.edu
 github_username:  quachtina96
 
 # Build settings
@@ -21,8 +21,7 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
-  poetry:
-    output: true
-    permalink: /poetry/:path/
+
+destination: /Users/quacht/Documents/Course/htmaa/cbasite/people/tina
 
 

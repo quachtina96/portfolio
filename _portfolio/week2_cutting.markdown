@@ -2,7 +2,7 @@
 layout: post
 title: flowers and butterflies
 description: computer controlled cutting
-img: /img/week2/splash.jpg
+img: ../img/week2/splash.jpg
 ---
 ### "design, lasercut, and document a parametric press-fit construction kit, accounting for the lasercutter kerf, which can be assembled in multiple ways"
 

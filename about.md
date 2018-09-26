@@ -4,7 +4,7 @@ title: tina quach is...
 permalink: /about/
 ---
 
-<img class="col one right" src="/img/prof_pic.jpeg">
+<img class="col one right" src="../img/prof_pic.jpeg">
 
 <br/>
 learning <a href="http://fab.cba.mit.edu/classes/863.18/">how to make (almost) anything!</a>
