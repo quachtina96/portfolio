@@ -81,5 +81,68 @@ __Process__
 	Klein bottle visualized as made of blue glass.
 </div>
 
+From Autodesk Fusion, you can export your model to an STL file via the File > 3D Print option. I didn't realize that at first, so I exported a STEP file and an IGES. Tom ended up converting the STEP file to an STL in Rhino, and based on the 3D print, there might have been an artifact of the conversion resulting in a shape my friend Karishma calls "a 9 on a Hershey's kiss"
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/week4/13_prusa.jpg" alt="" title="grey hollow, 3d-printed klein bottle"/>
+	<img class="col one" src="{{ site.baseurl }}/img/week4/power_wash.jpg" alt="" title="TODO: include image of the bottle after removing supports"/>
+	<img class="col one" src="{{ site.baseurl }}/img/week4/14_dimension_support.jpg" alt="" title="white 3d-printed klein bottle with supports inside"/>
+</div>
+<div class="col one caption">
+	PLA material printed with the Prusa MK3 without support material on the inside.
+</div>
+<div class="col one caption">
+</div>
+<div class="col one caption">
+	ABS material printed With the Stratysys Dimension with supports on the inside. These supports are made with a water soluble material that gets removed by letting the bottle sit in a heated bath containing water and lye (basically a really strong soap) that is ultrasonically agitated. Since there isn't room for hte supports to escape, it not really sure what will happen there.
+</div>
+
+Since the prints didn't come out as expected, Tom said I could try reprinting it with the Prusa.
+
+Settings:
+* Materials: Prusa PLA
+* Quality: Detail 0.1mm
+* Infill: Hollow/Shell - 0%
+* Support: Only from build plate
+(Trying to print it without support resulted in it coming off the plate because there's only a thin circle actually holding it to the plate.)
+
 #### "3D scan an object (and optionally print it)"
-TODO
+Since I want to have a model of my hand for my final project, I tried using the Sense2 3D Scanner to scan my hand. I knew it was going to be hard to keep an even distance between the sensor and my hand on my own, so I asked John to help me out! It was pretty funny and involved teamwork as we took turns holding the scanner steady as John moved to my other side. We made two attempts (One in 'Scan Object' mode and one in 'Scan Head' mode) and got about the same results.
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/week4/15_sense2_hand.jpg" alt="" title="Front view of right hand scan"/>
+	<img class="col one" src="{{ site.baseurl }}/img/week4/16_sense2_hand_side.jpg" alt="" title="Side view of right hand scan"/>
+	<img class="col one" src="{{ site.baseurl }}/img/week4/17_sense2_hand_solidify.jpg" alt="" title="Solified hand scan"/>
+</div>
+<div class="col one caption">
+	Front view of right hand scan
+</div>
+<div class="col one caption">
+	Side view of right hand scan
+</div>
+<div class="col one caption">
+	You use the software to solify the scan in order to get an STL that you can actually print using the 3D printer.
+</div>
+
+I tried to use the erase tool to clean up the hand, but when I went to solidify the hand after erasing, it undid my hard work so I decided to try scanning my head (again with Tom's help). So that was kind of a fail.
+
+Scanning my head was also pretty difficult, because as the scan is occuring, you often need to move the scanner very slowly and stay very still. It's hard to do that and ensure that the scanner still knows how to combine the information in a way that makes sense. Once the scanner loses its tracking of the object its scanning (caused by quick movements, changes in proximity, or other objects getting in the way), it's difficult to find again. Here's the result.
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/week4/20_sense2_head_scan.jpg" alt="" title="Scan of tina's head"/>
+	<video class="col two video" controls>
+	  <source src="{{ site.baseurl }}/img/week4/0_sense2_head2.mp4" type="video/mp4">
+	</video>
+</div>
+<div class="col one caption">
+	Scan of my head using Sense2 scanner.
+</div>
+<div class="col two caption">
+	I figured I'd settle for a mount rushmore kind of aesthetic.
+</div>
+
+<!-- #### "Characterize the 3D printer"
+Another printer made available to the class is the Sindoh 3DWox. Nicole and I printed a testfile to the Sindoh 3DWox to characterize it. Using this print given to us, we
+ -->
+
+
