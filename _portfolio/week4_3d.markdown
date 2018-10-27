@@ -81,23 +81,11 @@ __Process__
 	Klein bottle visualized as made of blue glass.
 </div>
 
-From Autodesk Fusion, you can export your model to an STL file via the File > 3D Print option. I didn't realize that at first, so I exported a STEP file and an IGES. Tom ended up converting the STEP file to an STL in Rhino, and based on the 3D print, there might have been an artifact of the conversion resulting in a shape my friend Karishma calls "a 9 on a Hershey's kiss"
+From Autodesk Fusion, you can export your model to an STL file via the File > 3D Print option. I didn't realize that at first, so I exported a STEP file and an IGES. Tom ended up converting the STEP file to an STL in Rhino, and based on the 3D print, there might have been an artifact of the conversion resulting in a shape my friend Karishma calls "a 9 on a Hershey's kiss" (See the first two prints below.)
 
-<div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/week4/13_prusa.jpg" alt="" title="grey hollow, 3d-printed klein bottle"/>
-	<img class="col one" src="{{ site.baseurl }}/img/week4/power_wash.jpg" alt="" title="TODO: include image of the bottle after removing supports"/>
-	<img class="col one" src="{{ site.baseurl }}/img/week4/14_dimension_support.jpg" alt="" title="white 3d-printed klein bottle with supports inside"/>
-</div>
-<div class="col one caption">
-	PLA material printed with the Prusa MK3 without support material on the inside.
-</div>
-<div class="col one caption">
-</div>
-<div class="col one caption">
-	ABS material printed With the Stratysys Dimension with supports on the inside. These supports are made with a water soluble material that gets removed by letting the bottle sit in a heated bath containing water and lye (basically a really strong soap) that is ultrasonically agitated. Since there isn't room for hte supports to escape, it not really sure what will happen there.
-</div>
+These supports are made with a water soluble material that gets removed by letting the bottle sit in a heated bath containing water and lye (basically a really strong soap) that is ultrasonically agitated. Since there isn't room for the supports to escape, they are stuck inside the bottle.
 
-Since the prints didn't come out as expected, Tom said I could try reprinting it with the Prusa.
+Since the prints didn't come out as expected, Tom said I could try reprinting it with the Prusa (3rd image below).
 
 Settings:
 * Materials: Prusa PLA
@@ -105,6 +93,21 @@ Settings:
 * Infill: Hollow/Shell - 0%
 * Support: Only from build plate
 (Trying to print it without support resulted in it coming off the plate because there's only a thin circle actually holding it to the plate.)
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/week4/13_prusa.jpg" alt="" title="grey hollow, 3d-printed klein bottle"/>
+	<img class="col one" src="{{ site.baseurl }}/img/week4/14_dimension_support.jpg" alt="" title="white 3d-printed klein bottle with supports inside"/>
+	<img class="col one" src="{{ site.baseurl }}/img/week4/25_better_bottle.jpg" alt="" title="correctedBottle"/>
+</div>
+<div class="col one caption">
+	PLA material printed with the Prusa MK3 without support material on the inside.
+</div>
+<div class="col one caption">
+	ABS material printed with the Stratysys Dimension with supports on the inside.
+</div>
+<div class="col one caption">
+	PLA material printed with the Prusa MK3 with support material where the print has a direct line of sight to the bed of the printer.
+</div>
 
 #### "3D scan an object (and optionally print it)"
 Since I want to have a model of my hand for my final project, I tried using the Sense2 3D Scanner to scan my hand. I knew it was going to be hard to keep an even distance between the sensor and my hand on my own, so I asked John to help me out! It was pretty funny and involved teamwork as we took turns holding the scanner steady as John moved to my other side. We made two attempts (One in 'Scan Object' mode and one in 'Scan Head' mode) and got about the same results.
@@ -131,7 +134,7 @@ Scanning my head was also pretty difficult, because as the scan is occuring, you
 <div class="img_row">
 	<img class="col one" src="{{ site.baseurl }}/img/week4/20_sense2_head_scan.jpg" alt="" title="Scan of tina's head"/>
 	<video class="col two video" controls>
-	  <source src="{{ site.baseurl }}/img/week4/0_sense2_head2.mp4" type="video/mp4">
+	<source src="{{ site.baseurl }}/img/week4/0_sense2_head2.mp4" type="video/mp4">
 	</video>
 </div>
 <div class="col one caption">
